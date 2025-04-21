@@ -20,7 +20,7 @@ You need to download [CD-HIT](https://github.com/weizhongli/cdhit) and [LinearPa
 
 ## Experiments
 
-Run `main.py`, `main_single.py`, and `main_leave_one.py` for training. Run `zero_shot_leave_one`, `zero_shot_10_10`, and `zero_shot_10_9` for inference. For example,
+Run `main.py`, `main_single.py`, and `main_leave_one.py` for training. Run `zero_shot_leave_one.py`, `zero_shot_10_10.py`, and `zero_shot_10_9.py` for inference. For example,
 
 ```
 python main_single.py --lr 3e-4 --protein_id 18 --use_binary_protein 1 --save 1 --epochs 60 --device 6
